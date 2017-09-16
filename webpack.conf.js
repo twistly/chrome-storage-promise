@@ -1,11 +1,7 @@
 module.exports = {
-    entry: {
-        'chrome-storage-promise': './src/chrome-storage-promise.js'
-    },
+    entry: './index.js',
     output: {
-        library: 'chrome.storage',
-        libraryTarget: 'this',
-        filename: '[name].js'
+        filename: 'chrome-storage-promise.js'
     },
     module: {
         loaders: [{
